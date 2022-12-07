@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css"/>
+</head>
+<body>
+    <div class="container">
+        <div>
+            <form id="form">
+                <div>
+                    <label for="cor">Cor:</label>
+                    <select name='cor' id="cores">
+                        <option value="azul" >Azul</option>
+                        <option value="verde" >Verde</option>
+                        <option value="rosa" >Rosa</option>
+                    </select>
+                </div>
+                <div>
+                    <label for="idade">Idade:</label>
+                    <input type="number" placeholder="Digite a idade" id="idade">
+                </div>
+                <div>
+                    <label for="sexo">Sexo:</label>
+                    <select name="sexo" id="sexo">
+                        <option value="masculino">Masculino</option>
+                        <option value="feminino">Feminino</option>
+                    </select>    
+                <div>
+                    <h1>Quantidade de pessoas na pesquisa = <span id="display">0</span></h1>
+                </div>
+                </div>
+                <button type='submit' id="botao">Enviar</button>
+            </form>
+            <div>
+                <h1>% de pessoas que escolheu Azul = <span id="azul">0</span>%</h1>
+            </div>
+        </div>
+    </div>
+    <script src="./java.js"></script>
+</body>
+</html>

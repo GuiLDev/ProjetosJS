@@ -1,0 +1,16 @@
+body{
+    background-color: blueviolet;
+    display: flex;
+   justify-content: center;
+
+}
+
+.container{
+    background-color: aliceblue;
+    justify-content: center;
+    text-align: center;
+    margin-top: 270px;
+    overflow: hidden;
+    border-radius: 10px;
+    padding: 10px;
+}

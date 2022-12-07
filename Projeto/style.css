@@ -1,0 +1,109 @@
+body{
+    background-image: linear-gradient(to right, #242D39 0%, #0C0D09 100%);
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+    color: rgb(230, 195, 195);
+    border: rgb(56, 55, 55) solid;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    background-color: rgb(56, 55, 55);
+}
+
+
+#imagens .opcao1, .opcao2, .opcao3{
+    opacity: 30%;
+}
+#imagens .opcao4, .opcao5, .opcao6{
+    opacity: 30%;
+}
+#imagens .opcao1:hover, .opcao2:hover, .opcao3:hover{
+    opacity: 100%;
+}
+
+#imagens{
+    position: relative;
+
+}
+
+#imagens .jogador{
+    box-shadow: rgba(0, 0, 0, 0.9);
+    position: relative;
+    padding: 5px;
+    background-image: linear-gradient(#213AE0 0%, #641CEE 100%);
+    border-radius: 20px 20px;
+    display: flex;
+    justify-content: center;
+    margin-inline: 600px;
+    
+}
+#imagens .bot{
+    position: relative;
+    padding: 5px;
+    background-image: linear-gradient(#E02132 0%, #EE1C26 100%);
+    border-radius: 20px 20px;
+    display: flex;
+    justify-content: center;
+    margin-inline: 600px;
+
+}
+p{
+    background-color: rgb(56, 55, 55);
+    font-size: 24px;
+    font-family: Arial;
+    color: rgb(230, 195, 195);
+    justify-content: center;
+    display: flex;
+}
+
+#jogador1{
+    text-align: center;
+}
+
+#imagens h3{
+    position: relative;
+    
+
+}
+
+#footer{
+    position: fixed;
+    bottom:0;
+    left:0;
+    height: 70px;
+    width: 100%;
+    padding: 0 5px;
+    box-sizing:border-box;    
+}
+
+#resultado .resultado{
+    visibility: hidden;
+
+}
+
+
+
+
+.lista_footer{
+    padding: 5px;
+    background-color: rgb(56, 55, 55);
+    text-align: center;
+    color: rgb(230, 195, 195);
+  
+}
+
+.lista_footer a{
+    color: rgb(230, 195, 195);
+    text-decoration: none;
+    margin-inline: 200px;
+}
+
+.lista_footer a:hover{
+    color: #E02132;
+}
+
+
+
