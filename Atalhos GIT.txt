@@ -1,0 +1,9 @@
+Comandos GIT para não esquecer.
+
+"Git init"
+"Git config --global user.email "inserir email""
+"Git config --global user.nome "inserir nome""
+"Git add ."
+"Git commit -m "Inserir commit""
+"Git Push <inserir branch caso precise>"
+
