@@ -1,6 +1,7 @@
 Comandos GIT para não esquecer.
 
 "Git init"
+"Git Status"
 "Git config --global user.email "inserir email""
 "Git config --global user.nome "inserir nome""
 "Git add ."
