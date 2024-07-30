@@ -1,0 +1,13 @@
+p{
+    margin: 0;
+    text-indent: 3ch;
+}
+  
+p.caldeirao{
+    text-indent: 0;
+    display: inline;
+}
+
+p.caldeirao + p.caldeirao::before{
+    content: " ¶ ";
+}   
