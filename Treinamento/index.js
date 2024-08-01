@@ -1,4 +1,6 @@
-document.querySelector("button").addEventListener("click", function (event) {
+document.addEventListener("DOMContentLoaded", function() {
+  console.log("DOM fully loaded");
+  document.querySelector("button").addEventListener("click", function (event) {
     document.querySelectorAll("p").forEach(function (paragraph) {
       paragraph.classList.toggle("caldeirao");
     });
@@ -7,4 +9,4 @@ document.querySelector("button").addEventListener("click", function (event) {
     event.target.innerText = newButtonText;
     event.target.dataset.toggleText = oldText;
   });
-  
+});
