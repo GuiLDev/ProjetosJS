@@ -8,3 +8,5 @@ Comandos GIT para não esquecer.
 "Git commit -m "Inserir commit""
 "Git Push <inserir branch caso precise>"
 
+"Git clone -b nome-da-branch --single-branch nome-da-branch url-da-branch"
+
