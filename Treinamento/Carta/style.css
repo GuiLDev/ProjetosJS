@@ -3,7 +3,7 @@
     padding: 0px;
 }
 
-#section.mainSection1{
+.mainSection1{
     position: relative;
     background-color: red;
 }
