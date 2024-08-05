@@ -1,0 +1,9 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+#section.mainSection1{
+    position: relative;
+    background-color: red;
+}
