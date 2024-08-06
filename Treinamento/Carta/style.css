@@ -6,4 +6,6 @@
 .mainSection1{
     position: relative;
     background-color: red;
+    justify-content: right;
+    margin-left: 50%;
 }
