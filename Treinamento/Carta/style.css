@@ -4,8 +4,7 @@
 }
 
 .mainSection1{
-    position: relative;
-    background-color: red;
-    justify-content: right;
-    margin-left: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    width: 300px;
 }
