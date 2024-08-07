@@ -2,3 +2,28 @@
     padding: 0px;
     margin: 0px;
 }
+
+header{
+    margin: 10px;
+    max-width: 100%;
+    background-color: red;
+}
+
+.containerHeader h1{
+    background-color: cyan;
+    text-align: center;
+    padding: 20px;
+    font-size: 50px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.containerHeader img{
+    height: 60px;
+    background-color: green;
+    display: flex;
+
+}
+
+.containerHeader nav{
+    background-color: blue;
+}
