@@ -4,26 +4,47 @@
 }
 
 header{
-    margin: 10px;
-    max-width: 100%;
+    display: flex;
+}
+
+.sectionHeader{
+    justify-content: center;
     background-color: red;
+    max-width: 1536px;
+    width: 100%;
+}
+
+.containerHeader{
+    display: flex;  
+    justify-content: space-between; 
 }
 
 .containerHeader h1{
     background-color: cyan;
-    text-align: center;
-    padding: 20px;
-    font-size: 50px;
+    font-size: 50px;    
     font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    width: 100%;
+    padding: 20px;
 }
 
 .containerHeader img{
-    height: 60px;
+    height: 100px;
     background-color: green;
-    display: flex;
-
 }
 
-.containerHeader nav{
+nav{
     background-color: blue;
+    padding: 9px;
+}
+
+nav ul{
+    font-size: 30px;
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    gap: 200px;
+    color: white;
+    padding: 20px;
+    background-color: red;
 }
