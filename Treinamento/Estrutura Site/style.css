@@ -113,19 +113,21 @@ aside{
 
 
 footer{
+    display: flex;
     max-width: 1536px;
-    width: 100%;
     background-color: green;
-}
+}   
 
-footer .mainFooter{
-    background-color: blue;
+footer .mainFooter{ 
+    background-color: green;
     padding: 10px;
     margin: 10px;
+    
     
 }
 
 .mainFooter span{
+    padding: 5px;
     color: white;
-    font-size: 20px;    
+    font-size: 23px;    
 }
