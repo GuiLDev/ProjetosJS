@@ -4,12 +4,13 @@
 }
 
 header{
+    max-width: 1536px;
     display: flex;
+    background-color: green;
 }
 
 .sectionHeader{
     justify-content: center;
-    background-color: red;
     max-width: 1536px;
     width: 100%;
 }
@@ -20,7 +21,7 @@ header{
 }
 
 .containerHeader h1{
-    background-color: cyan;
+    color: beige;
     font-size: 50px;    
     font-family: 'Times New Roman', Times, serif;
     text-align: center;
@@ -30,15 +31,14 @@ header{
 
 .containerHeader img{
     height: 100px;
-    background-color: green;
 }
 
 nav{
-    background-color: blue;
     padding: 9px;
 }
 
 nav ul{
+    background-color: darkgreen;
     font-size: 30px;
     display: flex;
     list-style: none;
@@ -46,5 +46,86 @@ nav ul{
     gap: 200px;
     color: white;
     padding: 20px;
-    background-color: red;
+}
+
+
+main{
+    max-width: 1536px;
+    display: flex;
+    background-color: green;
+}
+
+
+.sectionMain{
+    display: flex;
+    justify-content: center;
+}
+
+.mainArticle{
+    margin: 10px;
+    background-color: rgb(53, 180, 53);
+
+}
+
+.mainArticle h2{
+    font-size: 50px;
+    padding: 20px;
+    text-align: center;
+    color: white;
+}
+
+.mainArticle p{
+    padding: 20px;
+    font-size: 20px;
+    color: white;
+}
+
+.mainArticle span{
+    overflow: hidden;
+    padding: 20px;
+    font-size: 20px;
+    color: white;
+}
+
+.mainAside{
+    margin: 10px;
+    text-align: center;
+    width: 60%;
+    background-color: rgb(53, 180, 53);
+}
+
+.mainAside h2{
+    font-size: 50px;
+    padding: 5px;
+    text-align: center;
+    color: white;
+}
+
+
+.mainAside img{
+    height: 130px;
+    max-width: 100%;
+}
+
+aside{
+    padding: 5px;
+}
+
+
+footer{
+    max-width: 1536px;
+    width: 100%;
+    background-color: green;
+}
+
+footer .mainFooter{
+    background-color: blue;
+    padding: 10px;
+    margin: 10px;
+    
+}
+
+.mainFooter span{
+    color: white;
+    font-size: 20px;    
 }
