@@ -131,3 +131,7 @@ footer .mainFooter{
     color: white;
     font-size: 23px;    
 }
+
+hr{
+    max-width: 1536px;
+}
