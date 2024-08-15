@@ -1,0 +1,25 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.container{
+    margin: auto;
+}
+
+.logoHeader{
+    display: flex;
+    padding: 15px;
+    background-color: blue;
+}
+
+.logoHeader img{
+    margin: auto;
+    height: 150px;
+}
+
+.logoHeader h1{
+    width: 100%;
+    font-size: 100px;
+    margin: 20px;
+}
