@@ -1,3 +1,13 @@
+@media (max-width: 520px){
+    .mainIFrame iframe{
+        margin: 5px;
+        padding: 5px;
+        width: auto;
+    }
+    
+}
+
+
 @media (max-width: 800px){
     .mainArticle{
         display: flex;
