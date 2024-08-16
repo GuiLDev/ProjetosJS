@@ -4,23 +4,65 @@
 }
 
 .container{
-    margin: auto;
+    max-width: 360px;   
 }
-
 
 .logoHeader{
     display: flex;
     padding: 15px;
-    background-color: blue;
+    background-color: white;
 }
 
 .logoHeader img{
     margin: auto;
-    height: 150px;
+    height: 60px;
 }
 
-.logoHeader h1{
-    width: 100%;
-    font-size: 100px;
+.logoHeader h1{    
+    font-size: 60px;
     margin: 20px;
+}
+
+
+
+.mainArticle{
+    align-items: center;
+    background-color: lightgrey;
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+}
+
+
+.mainArticle p{
+    height: auto;
+    font-size: 22px;
+    padding: 10px;
+}
+
+.mainArticle h2{
+    text-align: center;
+    font-size: 30px;
+    padding: 10px;
+}
+
+
+.icons{
+    background-color: whitesmoke;
+    display: flex;
+    gap: 10%;
+    
+}
+
+.icons img{
+    max-height: 45px;
+}
+
+.pandinha{
+    width: 360px;
+}
+
+.mainIFrame iframe{
+    width: auto;
+    
 }
