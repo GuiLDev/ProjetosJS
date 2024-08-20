@@ -1,5 +1,8 @@
 html {
+    position: relative;
     font-family: sans-serif;
+    left: 400px;
+    top: 30pxz;
 }
 
 table{
@@ -34,4 +37,21 @@ th{
 
 .periodos, .segundaFeira, .quartaFeira, .sabado, .domingo{
     background-color: rgb(233, 230, 230);
+}
+
+
+.lojaRoupa{
+    background-color: rgb(228, 224, 224);
+}
+
+.lojaRoupa .row1, .row2, .row3{
+    background-color: rgb(216, 207, 207);
+}
+
+.lojaRoupa .row4, .row5{
+    background-color: rgb(204, 221, 236);
+}
+
+.tableFooter{
+    border: 2px solid black;
 }
