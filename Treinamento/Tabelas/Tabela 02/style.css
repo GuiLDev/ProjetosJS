@@ -1,0 +1,19 @@
+html{
+    font-family: sans-serif;
+}
+
+table{
+    text-align: center;
+    border-collapse: collapse;
+    border: 1px solid gray;
+}
+
+td, th, th{
+    border: 1px solid gray;
+    padding: 10px;
+}
+
+.nomes{
+    border: 5px solid black;
+    background-color: aquamarine;
+}
