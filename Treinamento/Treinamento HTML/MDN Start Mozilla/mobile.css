@@ -1,0 +1,73 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.container{
+    max-width: 360px;   
+}
+
+.logoHeader{
+    overflow-x: hidden;
+    display: flex;
+    padding: 15px;
+    background-color: white;
+}
+
+.logoHeader img{
+    margin: auto;
+    height: 60px;
+}
+
+.logoHeader h1{    
+    font-size: 60px;
+    margin: 20px;
+}
+
+
+
+.mainArticle{
+    align-items: center;
+    background-color: lightgrey;
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+}
+
+
+.mainArticle p{
+    height: auto;
+    font-size: 22px;
+    padding: 10px;
+}
+
+.mainArticle h2{
+    text-align: center;
+    font-size: 30px;
+    padding: 10px;
+}
+
+
+.icons{
+    width: 100%;
+    background-color: whitesmoke;
+    display: flex;
+    gap: 10%;
+    
+}
+
+.icons img{
+    overflow-x: hidden;
+    width: 100%;
+    max-height: 45px;
+}
+
+.pandinha{
+    width: 100%;
+}
+
+.mainIFrame iframe{
+    overflow: hidden;
+    width: auto;
+    
+}

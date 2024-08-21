@@ -1,0 +1,99 @@
+@media (max-width: 520px){
+    .mainIFrame iframe{
+        margin: 5px;
+        padding: 5px;
+        width: auto;
+    }
+    
+}
+
+
+@media (max-width: 800px){
+    .mainArticle{
+        display: flex;
+        flex-direction: column;
+        background-color: red;
+    }
+}
+@media (max-width: 1024px){
+    .icons{
+        gap: 10%;
+        
+    }
+
+    .icons img{
+        max-height: 100px;
+    }
+}
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+    
+}
+
+.container{
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+}
+
+body{
+    background-image: url(../MDN\ Start\ Mozilla/assets/pattern.png);
+}
+
+.logoHeader{
+    display: flex;
+    padding: 15px;
+    background-color: white;
+}
+
+.logoHeader img{
+    margin: auto;
+    height: 50px;
+}
+
+.logoHeader h1{
+    width: 1440px;
+    font-size: 40px;
+    margin: 20px;
+}
+
+
+.mainArticle{
+    align-items: center;
+    background-color: lightgrey;
+    display: flex;
+    padding: 15px;
+}
+
+
+.mainArticle p{
+    height: auto;
+    font-size: 22px;
+    padding: 10px;
+}
+
+.mainArticle h2{
+    text-align: center;
+    font-size: 30px;
+    padding: 10px;
+}
+
+.icons{
+    overflow-x: hidden;
+    background-color: orangered;
+    display: flex;
+    justify-content: center;
+}
+
+.icons img{
+    padding: 5px;
+    height: 240px;
+}
+
+.pandinha{
+    height: auto;
+    width: 100%;
+}
