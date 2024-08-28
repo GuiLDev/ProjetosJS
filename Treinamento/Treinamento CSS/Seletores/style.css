@@ -60,7 +60,11 @@ li[class='a']{
     background-color: red;
 }
 
-li[class~='a']{
+li[class^='a']{
+    color: orange;
+}
+
+li[class$='a']{
     color: blue;
 }
 
@@ -83,6 +87,8 @@ li[class^='nav-']{
     color: green;
     background-color: aqua;
 }
+
+
 
 
 
