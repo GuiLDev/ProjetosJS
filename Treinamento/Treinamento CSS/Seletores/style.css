@@ -3,14 +3,9 @@
     padding: 0px;
 }
 
-
-div{
+.container{
     display: flex;
     flex-direction: column;
-}
-
-
-.container{
     width: 100vw;
     height: 100vh;
     justify-content: center;
@@ -51,6 +46,45 @@ div{
     border: 5px solid;
     border-color: blue;
 }
+
+
+.listas{
+    padding: 15px;
+}
+
+li[class]{
+    font-size: 200%;
+}
+
+li[class='a']{
+    background-color: red;
+}
+
+li[class~='a']{
+    color: blue;
+}
+
+li[class~='c']{
+    color: green;
+}
+
+.navList{
+    border: 5px solid;
+    font-size: 18px;
+    padding: 20px;
+    gap: 20%;
+    display: flex;
+    list-style: none;
+    align-items: center;
+    justify-content: center;
+}
+
+li[class^='nav-']{
+    color: green;
+    background-color: aqua;
+}
+
+
 
 
 
