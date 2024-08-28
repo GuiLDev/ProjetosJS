@@ -1,0 +1,56 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+
+div{
+    display: flex;
+    flex-direction: column;
+}
+
+
+.container{
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.notas{
+    background-color: gainsboro;
+    padding: 50px;
+    border-radius: 15px;
+    text-align: center;
+}
+
+
+.notas p:hover{
+    background-color: green;
+    border-color: green;
+}
+
+
+.box{
+    margin: 10px;
+    border: 5px solid gray;
+    padding: 5px;
+}
+
+.box.warning{
+    border-color: orange;
+}
+
+.box.danger{
+    border-color: red;
+}
+
+.danger{
+    margin: 10px;
+    padding: 5px;
+    border: 5px solid;
+    border-color: blue;
+}
+
+
+
