@@ -11,10 +11,10 @@ input:invalid{
 }
 
 
-form:first-child{
-    align-items: center;
-    justify-content: center;
+form h1:first-child{
+    text-decoration: underline;
 }
+
 
 h1{
     position: relative;
@@ -31,6 +31,8 @@ h1{
 }
 
 form{
+    align-items: center;
+    justify-content: center;
     border: 5px solid;
     border-radius: 10px;
     border-color: rgb(97, 97, 238);
@@ -40,7 +42,9 @@ form{
     padding: 40px;
 }
 
-label{
+form label:nth-of-type(-n+3){
+    position: relative;
+    right: 26px;
     color: white;
 }
 
