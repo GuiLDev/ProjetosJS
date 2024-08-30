@@ -1,0 +1,96 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.notas{
+    background-color: gainsboro;
+    padding: 50px;
+    border-radius: 15px;
+    text-align: center;
+}
+
+
+.notas p:hover{
+    background-color: green;
+    border-color: green;
+}
+
+
+.box{
+    margin: 10px;
+    border: 5px solid gray;
+    padding: 5px;
+}
+
+.box.warning{
+    border-color: orange;
+}
+
+.box.danger{
+    border-color: red;
+}
+
+.danger{
+    margin: 10px;
+    padding: 5px;
+    border: 5px solid;
+    border-color: blue;
+}
+
+
+.listas{
+    padding: 15px;
+}
+
+li[class]{
+    font-size: 200%;
+}
+
+li[class='a']{
+    background-color: red;
+}
+
+li[class^='a']{
+    color: orange;
+}
+
+li[class$='a']{
+    color: blue;
+}
+
+li[class~='c']{
+    color: green;
+}
+
+.navList{
+    border: 5px solid;
+    font-size: 18px;
+    padding: 20px;
+    gap: 20%;
+    display: flex;
+    list-style: none;
+    align-items: center;
+    justify-content: center;
+}
+
+li[class^='nav-']{
+    color: green;
+    background-color: aqua;
+}
+
+
+
+
+
+
+
