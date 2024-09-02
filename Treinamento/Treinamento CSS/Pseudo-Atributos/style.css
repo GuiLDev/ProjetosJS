@@ -21,9 +21,11 @@ h1{
 }
 
 .container{
+    min-height: 100vh;
     justify-content: center;
     align-items: center;
     display: flex;
+    flex-direction: column;
     width: 100vw;
     height: 100vh;
     background-color: green;
@@ -48,11 +50,15 @@ form label:nth-of-type(-n+3){
 }
 
 .socialMediaFooter{
-    width: 100%;
+    position: relative;
+    top: 300px;
+    box-sizing: border-box;
+    width: 100vw;
+    align-items: center;
     display: flex;
     justify-content: center;
-    padding: 5px;   
-    gap: 20%;
+    padding: 5px;
+    gap: 30%;
     list-style: none;
     background-color: red;
 }
