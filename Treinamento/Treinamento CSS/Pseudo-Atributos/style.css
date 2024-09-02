@@ -6,8 +6,7 @@
 
 input:invalid{
     background-color: yellow;
-    border: 3px solid red;
-    border-radius: 10px;
+    border: 2px solid red;
 }
 
 
@@ -46,6 +45,16 @@ form label:nth-of-type(-n+3){
     position: relative;
     right: 26px;
     color: white;
+}
+
+.socialMediaFooter{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 5px;   
+    gap: 20%;
+    list-style: none;
+    background-color: red;
 }
 
 
