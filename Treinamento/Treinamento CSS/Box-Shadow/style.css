@@ -20,16 +20,16 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-image: linear-gradient(to right, red 20%, black);
+    background-color: rgb(142, 236, 105);
     padding: 15px;
-    width: 42rem;
+    width: 100%;
 }
 
 p{
-    color: white;
-    border: 2px solid red;
+    color: black;
+    border-radius: 10px;
 }
-¨
+
 
 div{
     display: flex;
