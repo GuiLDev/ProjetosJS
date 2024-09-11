@@ -1,0 +1,58 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family:'Times New Roman', Times, serif ;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    background-image: linear-gradient(to right, aqua, blue 50%, aqua);
+}
+
+
+
+.container{
+    border: 5px solid black;
+    border-radius: 20px;
+    overflow: hidden;
+    background-color: yellow;
+
+}
+
+.cartao{
+    color: white;
+    padding: 10px;
+    background-color: rgb(230, 105, 105);
+}
+
+
+.footerP{
+    color: white;
+    padding: 10px;
+    background-color: blueviolet;
+}
+
+.articleMain{
+    display: flex;
+}
+
+.articleP{
+    padding: 10px;
+    font-size: 20px;
+}
+
+.articleImg{
+    object-fit: cover;
+    margin-left: 50px;
+}
+
+
+
+img{
+    padding: 0px;
+    width: 180px;
+}
