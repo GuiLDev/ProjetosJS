@@ -14,12 +14,16 @@ body{
 }
 
 
+strong{
+    color: black
+}
+
 
 .container{
-    border: 5px solid black;
+    border: 5px solid rgb(236, 180, 180);
     border-radius: 20px;
     overflow: hidden;
-    background-color: yellow;
+    background-color: rgb(204, 55, 55);
 
 }
 
@@ -33,7 +37,7 @@ body{
 .footerP{
     color: white;
     padding: 10px;
-    background-color: blueviolet;
+    background-color:rgb(230, 105, 105);
 }
 
 .articleMain{
@@ -41,11 +45,14 @@ body{
 }
 
 .articleP{
+    color: white;
     padding: 10px;
     font-size: 20px;
 }
 
 .articleImg{
+    display: flex;
+    align-items: stretch;
     object-fit: cover;
     margin-left: 50px;
 }
