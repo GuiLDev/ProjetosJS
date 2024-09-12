@@ -11,6 +11,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    position: relative;
 }
 
 .box{
@@ -35,6 +36,19 @@ h1{
     text-shadow: 4px 4px 8px black;
     user-select: none;
     
+}
+
+
+
+.footer {
+    position: absolute;
+    bottom: 10px; /* Distância do fundo da tela */
+    right: 10px; /* Distância da lateral direita da tela */
+    color: white; /* Cor do texto */
+    font-size: 14px; /* Tamanho da fonte */
+    background: rgba(0, 0, 0, 0.5); /* Fundo semi-transparente */
+    padding: 5px 10px; /* Espaçamento interno */
+    border-radius: 5px; /* Bordas arredondadas */
 }
 
 
