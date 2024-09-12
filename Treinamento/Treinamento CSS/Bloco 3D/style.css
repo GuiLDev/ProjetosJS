@@ -48,7 +48,8 @@ h1{
     font-size: 24px; 
     background: rgba(0, 0, 0, 0.5); 
     padding: 5px 10px; 
-    border-radius: 5px; 
+    border-radius: 5px;
+    user-select: none;
 }
 
 
