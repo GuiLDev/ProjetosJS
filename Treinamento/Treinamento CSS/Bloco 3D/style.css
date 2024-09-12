@@ -1,0 +1,38 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.container{
+    width: 100vw;
+    height: 100vh;
+    background-image: linear-gradient(to left, cyan, red);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 600px;
+    height: 400px;
+    background-color: rgb(240, 43, 43);
+    border-radius: 50px;
+    box-shadow: 4px 4px 4px black, 
+            inset 2px 2px 2px rgb(238, 140, 140), 
+            inset -2px -2px 2px black;
+    border: 3px solid rgb(235, 81, 81);
+}
+
+h1{
+    color: white;
+    text-shadow: 4px 4px 8px black;
+    
+}
+
+
+
+
