@@ -25,14 +25,46 @@
             inset 2px 2px 2px rgb(238, 140, 140), 
             inset -2px -2px 2px black;
     border: 3px solid rgb(235, 81, 81);
+    opacity: 0;
+    animation: fadeIn 2s forwards;
+    
 }
 
 h1{
     color: white;
     text-shadow: 4px 4px 8px black;
+    user-select: none;
     
 }
 
+
+.box:hover{
+    background-color: rgb(240, 111, 111);
+    box-shadow: 4px 4px 4px black,
+    inset 4px 4px 12px rgb(70, 70, 70), 
+    inset -4px -4px 12px rgb(70, 70, 70);
+    border-color: rgb(252, 115, 115);
+}
+
+.box:hover h1{
+    font-size: 28px;
+    transform: translateY(2px);
+}
+
+.box:active{
+    background-color: rgb(240, 159, 159);
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(100vh), scale(0.9);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0), scale(1);
+    }
+}
 
 
 
