@@ -11,7 +11,6 @@
 }
 
 header{
-    background-image: linear-gradient(to right, red, blue);
     border-top: 10px solid purple;
     border-bottom: 10px solid purple;
     text-align: center;
@@ -19,7 +18,7 @@ header{
 }
 
 header h1{
-    color: white;
+    color: gray;
     font-size: 42px;
     text-shadow: 3px 3px 3px black;
 }
@@ -50,16 +49,16 @@ main{
 }
 
 .bloco1{
+    border-right: 5px solid black;
     text-align: justify;
     padding: 38px;
-    width: 92rem;
-    background-color: red;
+    width: 100%;
 }
 
 .bloco2{
-    width: 30%;
+    border-right: 5px solid black;
+    width: 50%;
     padding: 30px;
-    background-color: green;
 }
 
 .bloco2 li, h2{
@@ -74,17 +73,26 @@ main{
     text-align: center;
     width: 50%;
     padding: 50px;
-    background-color: blue;
 }
 
 
 .bloco3 li{
+    width: 100x;
     background-color: purple;
     color: white;
     border: 5px rgb(167, 58, 167) solid;
     border-radius: 20px;
     list-style: none;
     margin-bottom: 75px;
+}
+
+span::after{
+    content: url(../Site\ Layout/assets/sair-do-canto-superior-direito.png);
+}
+
+span{
+    text-decoration: underline;
+    color: blue;
 }
 
 
