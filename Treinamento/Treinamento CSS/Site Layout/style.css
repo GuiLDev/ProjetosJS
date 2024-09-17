@@ -24,6 +24,11 @@ header h1{
 }
 
 body{
+    background-image: url(./assets/parede-de-textura-de-fundo-de-forma-de-circulo.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
     max-width: 100%;
     display: flex;
     line-height: 1.6;
