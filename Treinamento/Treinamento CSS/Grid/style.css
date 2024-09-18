@@ -8,12 +8,63 @@
     width: 100vw;
     height: 100vh;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
+    background-image: linear-gradient(to right, rgb(240, 167, 167), rgb(170, 170, 228));
 }
 
 
 .grids{
+    width: 800px;
+    text-align: center;
+    background-color: azure;
+    border: 5px solid rgb(144, 226, 119);
+    padding: 50px;
+    gap: 20px;
     display: grid;
-    grid-template-columns: 200px 200px 200px;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-auto-rows: minmax(100px, auto);
+}
+
+.grids p{
+    padding: 10px;
+    border: 3px solid cyan;
+    background-color: aquamarine;
+}
+
+.grids p:first-child{
+    color: red;
+}
+
+
+
+.blog{
+    display: grid;
+    padding: 50px;
+    width: 800px;
+    background-color: green;
+}
+
+.blog header{
+    padding-bottom: 20px;
+    grid-column: 1 / 3;
+    grid-row: 1;
+}
+
+.blog article{
+    border-right: 5px solid black;
+    grid-column: 1;
+    grid-row: 2;
+}
+
+.blog aside{
+    background-color: blue;
+    grid-column: 2;
+    grid-row: 2;
+}
+
+.blog footer{
+    grid-column: 1 / 3;
+    grid-row: 3;
 }
