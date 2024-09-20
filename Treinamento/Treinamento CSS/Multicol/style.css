@@ -1,0 +1,12 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.container{
+    column-width: 500px;
+    padding: 35px;
+    column-rule: 4px dotted blue;
+    column-gap: 20px;
+    background-color: red;
+}
