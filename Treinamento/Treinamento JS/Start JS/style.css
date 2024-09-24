@@ -1,0 +1,31 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+button{
+    background-color: cyan;
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 15px;
+    border-radius: 15px;
+    box-shadow: 4px 4px 4px;
+}
+
+button:hover{
+    background-color: greenyellow;
+}
+
+button:active{
+    background-color: red;
+    opacity: 50%;
+}
