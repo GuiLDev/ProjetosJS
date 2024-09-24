@@ -1,4 +1,3 @@
-document.addEventListener('DOMContentLoaded', function(){
 let randomNumber = Math.floor(Math.random() * 100) + 1;
 
 const guesses = document.querySelector(".guesses");
@@ -10,6 +9,8 @@ const guessField = document.querySelector(".guessField");
 
 let guessCount = 1;
 let resetButton;
+
+guessSubmit.addEventListener('click', checkGuess);
 
 function checkGuess() {
     const userGuess = Number(guessField.value);
@@ -45,9 +46,10 @@ function checkGuess() {
   function setGameOver() {
     guessField.disabled = true;
     guessSubmit.disabled = true;
+    const resultDiv = document.querySelector('.resultParas')
     resetButton = document.createElement("button");
     resetButton.textContent = "Start new game";
-    document.body.append(resetButton);
+    resultDiv.append(resetButton);
     resetButton.addEventListener("click", resetGame);
   }
 
@@ -69,4 +71,4 @@ function checkGuess() {
     lastResult.style.backgroundColor = "white";
   
     randomNumber = Math.floor(Math.random() * 100) + 1;
-  }});
+  };

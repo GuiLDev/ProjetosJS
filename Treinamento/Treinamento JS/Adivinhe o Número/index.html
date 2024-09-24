@@ -5,21 +5,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Adivinhe o Número</title>
     <link rel="stylesheet" href="style.css">
-    <script type="module" src="./script.js"></script>
+    <script defer src="./script.js"></script>
 </head>
 
 
 <body>
     <div class="container">
         <h1>Adivinhe o Número</h1>
-            <label for="guessField">Adivinhe o Número</label>
+            <label for="guessField">digite o número</label>
             <input type="number" id="guessField" class="guessField">
-            <input type="submit" id="submitGuess" class="submitGuess">
+            <input type="submit" id="guessSubmit" class="guessSubmit">
         <div class="resultParas">
             <p class="guesses"></p>
             <p class="lastResult"></p>
             <p class="lowOrHi"></p>
-          </div>
+        </div>
     </div>
 </body>
 </html>
