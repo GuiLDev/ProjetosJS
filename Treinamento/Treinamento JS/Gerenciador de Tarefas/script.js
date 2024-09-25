@@ -9,7 +9,7 @@ function criarTarefa(){
         return;
     }
 
-    const li = document.querySelector('li');
+    const li = document.createElement('li');
     li.textContent = nomeTarefa;
     blocoLista.appendChild(li);
     tarefa.value = '';
