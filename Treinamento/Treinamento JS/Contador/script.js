@@ -14,10 +14,8 @@ function atualizarBotões(){
 function mudarcorNumeros(){
     if (contador < 1){
         numeroContador.style.color = "red"
-    }else if (contador > 0){
-        numeroContador.style.color = "green"
     }else{
-        numeroContador.style.color = "blue"
+        numeroContador.style.color = "green"
     }
 }
 
