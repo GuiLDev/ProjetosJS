@@ -1,0 +1,86 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(125, 172, 172);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 100%;
+}
+
+.container{
+    background-color: white;
+    padding: 45px;
+    border-radius: 20px;
+    box-shadow: 3px 3px 10px;
+    width: 700px;
+    height: 700px;
+}
+
+.container h2{
+    text-align: center;
+}
+
+.formGerenciador{
+    max-width: 100%;
+    width: 700px;
+    overflow-y: scroll;
+    height: 700px;
+    font-size: 20px;
+}
+
+
+#campoTarefa{
+    width: 400px;
+    padding: 5px 5px 5px 10px;
+    border: 3px solid black;
+    border-radius: 10px;
+    font-size: 20px;
+}
+
+.envioForm{
+    padding: 5px;
+    border: 2px solid black;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+
+.campoFormDetails{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    padding: 0 0 10px 0;
+    border-bottom: 5px solid black;
+}
+
+.campoFormDetails label{
+    width: 100px;
+}
+
+.campoFormList{
+    user-select: none;
+    margin-top: 20px;
+}
+
+.campoFormList button{
+    margin: 0 0 0 10px;
+    padding: 10px;
+}
+
+
+.campoFormList li{
+    padding: 10px;
+}
+
+.concluida{
+    background-color: green;
+    color: white;
+    padding: 10px;
+}
