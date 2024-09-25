@@ -17,4 +17,7 @@ botaoIncremento.addEventListener('click', function(){
 botaoDecremento.addEventListener('click', function(){
     contador--; 
     numeroContador.textContent = `Número do contador: ${contador}`;
+    if (contador < 1){
+        botaoDecremento.disabled = true;
+    }
 });
