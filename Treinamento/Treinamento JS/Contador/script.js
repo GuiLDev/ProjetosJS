@@ -1,23 +1,24 @@
-const botaoIncremento = document.getElementsByClassName('incremento')[0];
-const botaoDecremento = document.getElementsByClassName('decremento')[0];
-const numeroContador = document.getElementsByClassName('contador')[0];
+const botaoIncremento = document.querySelector('.incremento');
+const botaoDecremento = document.querySelector('.decremento');
+const numeroContador = document.querySelector('.contador');
 
 let contador = 0;
 botaoDecremento.disabled = true;
 
+function atualizarBotões(){
+    botaoIncremento.disabled = contador === 10;
+    botaoDecremento.disabled = contador === 0;
+}
+
 botaoIncremento.addEventListener('click', function(){
     contador++; 
     numeroContador.textContent = `Número do contador: ${contador}`;
-    if (contador > 0){
-        botaoDecremento.disabled = false;
-    }
+    atualizarBotões();
 });
 
 
 botaoDecremento.addEventListener('click', function(){
     contador--; 
     numeroContador.textContent = `Número do contador: ${contador}`;
-    if (contador < 1){
-        botaoDecremento.disabled = true;
-    }
+    atualizarBotões();
 });
