@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gerador de senhas</title>
+    <link rel="stylesheet" href="style.css">
+    <script defer src="script.js"></script>
+</head>
+
+
+<body>
+    
+    <div class="container">
+        <h1>Gerador de Senhas</h1>
+        <div class="campoPass">
+            <label for="passField">Senha gerada: </label>
+            <input type="text" class="passField" id="passField" disabled>
+            <button class="passButton">Gerar</button>
+        </div>
+
+
+        <div class="contadorHUD" id="contadorHUD">
+            <label for="tamanho">Comprimento da senha:</label>
+            <input type="number" id="tamanho" value="12" min="4" max="32">
+            <p id="alertaLength"></p>
+            <br><br>  
+        </div>
+
+
+        <div class="checkBoxes">
+            <div class="labelsCB">
+                <label for="upperCases">Contém letras Maiusculas</label>
+                <label for="lowerCases">Contém letras Minusculas</label>
+                <label for="simbolos">Contém simbolos</label>
+                <label for="numeros">Contém números</label>
+            </div>
+
+            <div class="inputsCB">
+                <input type="checkbox" name="upperCases" class="upperCases" id="upperCases"><br>
+                <input type="checkbox" name="lowerCases" class="lowerCases" id="lowerCases"><br>
+                <input type="checkbox" name="simbolos" class="simbolos" id="simbolos"><br>
+                <input type="checkbox" name="numeros" class="numeros" id="numeros">
+            </div>
+        </div>
+    </div>
+
+    
+
+</body>
+</html>
