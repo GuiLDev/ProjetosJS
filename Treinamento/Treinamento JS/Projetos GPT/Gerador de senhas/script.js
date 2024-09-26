@@ -5,21 +5,25 @@ const passButton = document.querySelector('.passButton');
 const incluirNumeros = document.querySelector('.numeros');
 const passField = document.getElementById('passField')
 
-const alertaLength = document.getElementById('alertaLength');
-    alertaLength.style.color = 'red';
-    alertaLength.style.display = 'none';
-    
+
+
 //Socorro deus
 
 
 function gerarSenha(){
+    const alertaLength = document.getElementById('alertaLength');
+    alertaLength.style.color = 'red';
+    alertaLength.style.display = 'none';
+
     const comprimento = document.getElementById('tamanho').value;
-    const comprimentoInput = parseInt(comprimento.value, 10);
+    const comprimentoInput = parseInt(comprimento, 10);
     if(isNaN(comprimentoInput) || comprimentoInput < 4 || comprimentoInput > 32){
         alertaLength.textContent = 'Porfavor insira um comprimento valido (Min 4, Max 32)';
         alertaLength.style.display = 'block';
         return;
     }
+    
+    alertaLength.style.display = 'none';
     
     const letrasMaiusculas = 'ABCDEFGHIJKLMNOPQRSTUVXYZ';
     const letrasMinusculas = 'abcdefghijklmnopqrstuvxyz';
@@ -49,4 +53,24 @@ function gerarSenha(){
 
 }
 
+
+function verSenha(){
+    const eyeOpen = document.getElementById('eyeOpen');
+    const eyeHidden = document.getElementById('eyeHidden');
+
+    eyeOpen.addEventListener('click', function(){
+            passField.type = 'text';
+            eyeOpen.style.display = 'none';
+            eyeHidden.style.display = 'block';
+    });
+
+    eyeHidden.addEventListener('click', function() {
+        passField.type = 'password';
+        eyeOpen.style.display = 'block';
+        eyeHidden.style.display = 'none';
+    });
+
+}
+
 passButton.addEventListener('click', gerarSenha);
+verSenha();
