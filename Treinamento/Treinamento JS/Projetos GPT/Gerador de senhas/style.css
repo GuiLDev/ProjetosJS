@@ -1,0 +1,81 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    max-width: 100%;
+    background-image: linear-gradient(to right, purple, cyan);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    background-image: linear-gradient(to top, rgb(123, 48, 167), rgb(248, 143, 243));
+    border-radius: 10px;
+    box-shadow: 3px 3px 10px;
+    padding: 25px;
+}
+
+
+.container h1{
+    text-align: center;
+    font-family:'Times New Roman', Times, serif;
+    border-bottom: 5px solid black;
+}
+
+.container label{
+    color: white;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.passButton{
+    padding: 5px;
+    width: 100px;
+    border: 2px solid black;
+    border-radius: 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    background-image: linear-gradient(to left, rgb(94, 0, 94), rgb(122, 7, 122));
+    color: cyan;
+}
+
+.campoPass{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    margin: 20px 0 0 0;
+    height: 200px;
+}
+
+.campoPass input{
+    height: 40px;
+    width: 250px;
+    font-size: 2rem;
+}
+
+
+
+.checkBoxes{
+    display: flex;
+    width: 100%;
+}
+
+.labelsCB{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    border-right: 3px solid black;
+    margin: 0 25px 0 0;
+}
+
+.inputsCB{
+    width: 100%;
+    align-items: end;
+}
