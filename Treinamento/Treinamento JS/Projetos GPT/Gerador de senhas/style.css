@@ -14,6 +14,7 @@ body{
     align-items: center;
 }
 
+
 .container{
     background-image: linear-gradient(to top, rgb(123, 48, 167), rgb(248, 143, 243));
     border-radius: 10px;
@@ -35,6 +36,7 @@ body{
 }
 
 .passButton{
+    cursor: pointer;
     padding: 5px;
     width: 100px;
     border: 2px solid black;
@@ -78,4 +80,13 @@ body{
 .inputsCB{
     width: 100%;
     align-items: end;
+}
+
+.campoPass img{
+    cursor: pointer;
+}
+
+.campoPass #eyeHidden{
+    cursor: pointer;
+    display: none;
 }
