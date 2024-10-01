@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Par ou Impar</title>
+    <link rel="stylesheet" href="style.css">
+    <script defer src="script.js"></script>
+</head>
+
+<body>
+    
+
+    <div class="container">
+        <h1>Par ou Impar</h1>
+        <div class="bloco01">
+            <label for="primeiraSeleção">Escolha <strong>PAR</strong> ou <strong>IMPAR</strong>:</label>
+            <select name="primeiraSeleção" id="primeiraSeleção">
+                <option value="par" id="par">Par</option>
+                <option value="impar" id="impar">Impar</option>
+            </select>
+            <button>Escolher</button>
+        </div>
+        <div class="bloco02">
+            <label for="segundaSeleção">Digite seu número: </label>
+            <input type="number" name="segundaSeleção" id="numero" min="1" max="100">
+            <p id="numero-invalido"></p>
+        </div>
+        <div class="bloco03">
+            <p>Escolha do computador: <span id="cpuValor"></span></p>
+        </div>
+    </div>
+
+
+</body>
+</html>
