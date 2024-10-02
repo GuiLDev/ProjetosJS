@@ -42,7 +42,6 @@ body{
 }
 
 .convBlock div:nth-child(2) p{
-    text-decoration: underline;
     font-size: 1.5rem;
     text-align: center;
 }
