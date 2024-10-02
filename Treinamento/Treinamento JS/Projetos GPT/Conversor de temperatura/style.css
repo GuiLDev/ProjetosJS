@@ -1,0 +1,104 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: linear-gradient(to left, purple, orange);
+}
+
+
+.container{
+    display: flex;
+    gap: 20px;
+}
+
+
+
+.convBlock{
+    background-color: white;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 2px 2px 10px;
+    width: 500px;
+    height: 300px;
+}
+
+.convBlock h2{
+    text-align: center;
+    border-bottom: 5px solid black;
+    
+}
+
+.convBlock div:nth-child(2){
+    margin: 10px 0 0 0;
+    height: 90%;
+}
+
+.convBlock div:nth-child(2) p{
+    text-decoration: underline;
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+
+.inputValues{
+    display: flex;
+    gap: 15%;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+
+.inputValues input{
+    width: 97px;
+    padding: 5px;
+}
+
+
+.tempChoice{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10%;
+}
+
+.tempChoice select{
+    padding: 10px;
+    width: 120px;
+}
+
+.convList{
+    background-color: white;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 2px 2px 10px;
+    width: 200px;
+    height: 300px;
+}
+
+.convList h2{
+    text-align: center;
+    border-bottom: 5px solid black;
+}
+
+.convList li{
+    list-style: none;
+    margin-top: 15px;
+}
+
+.convList ul{
+    margin-top: 30px;
+}
+
+
+
+
+
