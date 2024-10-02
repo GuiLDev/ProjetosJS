@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conversor Temperatura</title>
+    <link rel="stylesheet" href="style.css">
+    <script defer src="script.js"></script>
+</head>
+<body>
+    
+    <div class="container">
+
+
+        <div class="convBlock">
+            <h2>Conversor de Temperatura</h2>
+            <div>
+                <p>Selecione a temperatura que deseja converter</p><br><br><br>
+                <div class="tempChoice">
+                    <select name="temp" id="firstChoice">
+                        <option value="celsius">Celsius</option>
+                        <option value="kelvin">Kelvin</option>
+                        <option value="fahrenheit">Fahrenheit</option>
+                    </select>
+                    <span>para</span>
+                    <select name="temp2" id="secondChoice">
+                        <option value="celsius">Celsius</option>
+                        <option value="kelvin">Kelvin</option>
+                        <option value="fahrenheit">Fahrenheit</option>
+                    </select>
+                </div>
+                <div class="inputValues">
+                    <input type="number" name="campoUm" id="campoUm">
+                    <hr>
+                    <input type="number" name="campoDois" id="campoDois" disabled> 
+                </div>
+            </div>
+        </div>
+
+
+        <div class="convList">
+            <h2>Conv. Recentes</h2>
+            <div class="recentes">  
+                <ul class="liRecentes">
+                    
+                </ul>
+            </div>
+        </div>
+    </div>
+
+
+
+
+</body>
+</html>
