@@ -26,6 +26,19 @@ body{
     text-align: center;
 }
 
+
+.container button{
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.container div:nth-child(5){
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .bloco01 select{
     padding: 5px;
 }
@@ -51,4 +64,10 @@ body{
 #numero-invalido{
     margin: 5px 0 15px 0;
     color: red;
+}
+
+#resultado{
+    margin: 10px 0 10px 0;
+    font-weight: bold;
+    font-size: 2rem;
 }
