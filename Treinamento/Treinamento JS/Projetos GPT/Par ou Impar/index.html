@@ -9,40 +9,34 @@
 </head>
 
 <body>
-    
 
     <div class="container">
-        <h1>Par ou Impar</h1>
+        <h1>Par ou Ímpar</h1>
         <div class="bloco01">
             <label for="primeiraSelecao">Escolha <strong>PAR</strong> ou <strong>IMPAR</strong>:</label>
             <select name="primeiraSelecao" id="primeiraSelecao">
-                <option value="par" id="par">Par</option>
-                <option value="impar" id="impar">Impar</option>
+                <option value="par">Par</option>
+                <option value="impar">Impar</option>
             </select>
             <button id="botaoEnviar">Escolher</button>
         </div>
-
-
 
         <div class="bloco02" style="display:none;">
             <label for="segundaSelecao">Digite seu número: </label>
             <input type="number" name="segundaSelecao" id="numero" min="1" max="100">
             <p id="numero-invalido"></p>
+            <button id="botaoEnviarNumero">Enviar valor</button>
         </div>
-
-
-
-
 
         <div class="bloco03">
             <p>Escolha do computador: <span id="cpuValor"></span></p>
             <p id="resultado"></p>
         </div>
+
         <div>
-            <button type="submit" id="resetButton">Resetar jogo</button>
+            <button id="resetButton" style="display:none;">Resetar jogo</button>
         </div>
     </div>
-
-
+    
 </body>
 </html>
