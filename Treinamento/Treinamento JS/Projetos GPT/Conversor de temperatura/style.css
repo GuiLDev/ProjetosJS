@@ -116,6 +116,8 @@ body{
     font-size: 1.2rem;
     color: red;
     transition: color 1s ease;
+    position: relative;
+    top: 20px;
 }
 
 
