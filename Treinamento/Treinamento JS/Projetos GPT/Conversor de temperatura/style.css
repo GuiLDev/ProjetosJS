@@ -56,9 +56,23 @@ body{
 }
 
 
+#enviarConv{
+    position: relative;
+    left: 210px;
+    padding: 10px;
+    margin-top: 40px;
+
+}
+
+
 .inputValues input{
     width: 120px;
     padding: 10px;
+}
+
+.inputValues input:nth-child(1){
+    border: 3px solid black;
+    border-radius: 10px;
 }
 
 
@@ -97,6 +111,12 @@ body{
     margin-top: 30px;
 }
 
+
+#errorMessage{
+    font-size: 1.2rem;
+    color: red;
+    transition: color 1s ease;
+}
 
 
 
