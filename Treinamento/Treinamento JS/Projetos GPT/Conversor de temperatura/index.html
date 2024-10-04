@@ -15,25 +15,29 @@
         <div class="convBlock">
             <h2>Conversor de Temperatura</h2>
             <div>
-                <p>Selecione a temperatura que deseja converter</p><br><br><br>
+                <p>Selecione a temperatura que deseja converter</p><br>
                 <div class="tempChoice">
                     <select name="temp" id="firstChoice">
                         <option value="celsius">Celsius - C°</option>
-                        <option value="kelvin">Kelvin - K°</option>
+                        <option value="kelvin">Kelvin - K</option>
                         <option value="fahrenheit">Fahrenheit - F°</option>
                     </select>
                     <span>para</span>
                     <select name="temp2" id="secondChoice">
                         <option value="celsius">Celsius - C°</option>
-                        <option value="kelvin">Kelvin - K°</option>
+                        <option value="kelvin">Kelvin - K</option>
                         <option value="fahrenheit">Fahrenheit - F°</option>
                     </select>
                 </div>
                 <div class="inputValues">
                     <input type="number" name="campoUm" id="campoUm">
                     <hr>
-                    <input type="number" name="campoDois" id="campoDois" disabled> 
+                    <input type="number" name="campoDois" id="campoDois" disabled>
                 </div>
+                <div>
+                    <p id="errorMessage">aaa</p>
+                </div>
+                <button id="enviarConv">Converter</button>
             </div>
         </div>
 
