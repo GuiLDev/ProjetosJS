@@ -111,6 +111,14 @@ body{
     margin-top: 30px;
 }
 
+#enviarConv{
+    border: 2px solid black;
+    background-image: linear-gradient(to right, cyan, red);
+    color: rgb(255, 255, 255);
+    border-radius: 10px;
+    cursor: pointer;
+}
+
 
 #errorMessage{
     font-size: 1.2rem;
