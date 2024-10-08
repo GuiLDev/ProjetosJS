@@ -5,9 +5,11 @@ const msgErro = document.getElementById('errorMessage');
 
 
 
+
 convButton.addEventListener('click', function(){
     const primeiroValor = parseFloat(document.getElementById('campoUm').value);
     const segundoValor = document.getElementById('campoDois');
+    const ulRecente = document.querySelector('.liRecentes');
 
     if(firstSelect.value === secondSelect.value){
         msgErro.textContent = 'Temperatura é a mesma, seleciona uma diferente';
@@ -20,14 +22,19 @@ convButton.addEventListener('click', function(){
         return;
     }
 
+    let resultado = '';
 
     if(firstSelect.value === 'celsius' && secondSelect.value === 'kelvin'){
         const ck = primeiroValor + 273.15;
         segundoValor.value = ck.toFixed(0);
+        resultado = `${primeiroValor}°C para ${ck} K`
+        console.log(resultado)
         msgErro.textContent = '';
+
     }else if(firstSelect.value === 'celsius' && secondSelect.value === 'fahrenheit'){
         const cf = (primeiroValor * 9/5) + 32;
         segundoValor.value = cf.toFixed(0);
+        resultado = `${primeiroValor}°C para ${cf} F°`
         msgErro.textContent = '';
     }
 
@@ -53,6 +60,8 @@ convButton.addEventListener('click', function(){
         msgErro.textContent = '';
     }
 
-
+    const novoItem = document.createElement('li');
+    novoItem.textContent = resultado;
+    ulRecente.appendChild(novoItem);
     
 })
