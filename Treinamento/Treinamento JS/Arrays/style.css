@@ -37,3 +37,7 @@ h1{
     border: 2px solid black;
     padding: 5px;
 }
+
+#btn-gerar{
+    padding: 0 20px 0 20px;
+}
