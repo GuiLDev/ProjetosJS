@@ -2,6 +2,7 @@ const langUS = document.getElementById('US');
 const langUK = document.getElementById('UK');
 const campoNome = document.getElementById('inp-nome');
 const btnGerar = document.getElementById('btn-gerar');
+const blcText = document.querySelector('.blocoTexto');
 
 
 btnGerar.addEventListener('click', function(){
@@ -33,5 +34,6 @@ btnGerar.addEventListener('click', function(){
 
     hist = `A historia conta a vida de um homem chamado ${nome} que morava em ${lugarAleatorio} que ficava ${distanciaAleatorio} de ${lugar2Aleatorio}. Ele queria ser ${profissaoAleatorio} entao estudou na faculdade ${faculdadeAleatorio}.`;
 
+    blcText.textContent = hist;
 
 })
