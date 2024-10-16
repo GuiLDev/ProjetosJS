@@ -1,0 +1,56 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: linear-gradient(to left, rgb(243, 102, 102), rgb(89, 191, 250) );
+}
+
+h1{
+    text-align: center;
+}
+
+.container{
+    background-color: white;
+    padding: 25px;
+    border-radius: 25px;
+}
+
+.bloco{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+
+.blocoNumeros{
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    gap: 20px;
+}
+
+.blocoNumeros p{
+    padding: 5px;
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 15px;
+    
+}
+
+
+.blocoNumeros p:hover{
+    border: 1px solid black;
+    border-radius: 15px;
+    background-color: yellow;
+    cursor: pointer;
+}
+
+.blocoNumeros p:active{
+    background-color: rgb(102, 226, 102);
+}
