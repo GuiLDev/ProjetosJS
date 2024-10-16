@@ -28,8 +28,12 @@ h1{
     margin-bottom: 20px;
 }
 
+.bloco span:nth-of-type(2){
+    color: red;
+}
 
 .blocoNumeros{
+    user-select: none;
     display: grid;
     grid-template-columns: repeat(10, 1fr);
     gap: 20px;
@@ -44,13 +48,17 @@ h1{
 }
 
 
-.blocoNumeros p:hover{
+.blocoNumeros .numeroLot:hover{
     border: 1px solid black;
     border-radius: 15px;
     background-color: yellow;
     cursor: pointer;
 }
 
-.blocoNumeros p:active{
+.blocoNumeros .numeroLot:active{
     background-color: rgb(102, 226, 102);
+}
+
+.blocoNumeros .numSel{
+    background-color: rgb(112, 241, 177);
 }
